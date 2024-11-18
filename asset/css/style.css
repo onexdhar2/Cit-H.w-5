@@ -1,0 +1,120 @@
+/* css comments */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;   
+}
+/* css comments */
+
+/* Navbar Star */
+.row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu li{
+    display: inline-block;
+    padding:30px 25px;
+}
+.menu li a{
+    color: black;
+}
+.signup ul li{
+    display: inline-block;
+}
+.signup ul li:first-child a{
+    padding:10px 20px;
+    color:#4CAF4F;
+    margin-right: 14px;
+}
+.signup ul li:first-child a:hover{
+    border: 1px solid #4CAF4F;
+}
+.signup ul li:last-child a{
+    background-color: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+.signup ul li:last-child a:hover{
+    background-color: #FFFFFF;
+    color: #4CAF4F;
+    transition: 1.5s;
+}
+.menu li:first-child a{
+    font-weight: bold;
+}
+/* Navbar End */
+
+/* Banner part start */
+.bnr{
+    background-color: #F5F7FA;
+    padding: 96px 0;
+}
+.content{
+    width: 60%;
+}
+.banner{
+    width: 40%;
+    text-align: center;
+}
+.content h1{
+    font-weight: 600px;
+    font-size: 64px;
+    line-height: 76px;
+}
+.content h1 span{
+    color: #4CAF4F;
+}
+.content p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.content a{
+    background-color: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+/* Banner part end */
+/* Client Part */
+.clients h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 600px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+.clients p{
+    display: flex;
+    justify-content: center;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+}
+.clients .row img{
+    margin: 16px 0;
+}
+/* Client Part End*/
